@@ -8,10 +8,15 @@ from{
         transform:scale(1);
     }
 `
+
+
 const Container=styled.div`
     display:flex;
     flex-direction:row;
-
+    @media(max-width:630px){
+        flex-direction:column;
+       
+    }
 
 `
 const Input =styled.input`
@@ -42,6 +47,9 @@ const Bloco=styled.div`
         height:40vh;
     }
     animation:${FormAnimation} 2s ;
+    @media(max-width:630px){
+        width:100vw;
+    }
 `
 const Conteudo=styled.div`
  animation:${FormAnimation} 4s ;
@@ -75,6 +83,9 @@ const Conteudo=styled.div`
     }
     a{
         text-decoration:none;
+    }
+    @media(max-width:630px){
+        width:100vw;
     }
 `
 export {Container,Input,Bloco,Conteudo}

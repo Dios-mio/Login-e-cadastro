@@ -11,7 +11,10 @@ from{
 const Container=styled.div`
     display:flex;
     flex-direction:row;
-   
+    @media(max-width:630px){
+        flex-direction:column;
+      
+    }
 
 `
 const Conteudo=styled.div`
@@ -35,6 +38,9 @@ const Conteudo=styled.div`
         height:40vh;
     }
     background:orange;
+    @media(max-width:630px){
+        width:100vw;
+    }
 
 `
 const Formulario=styled.div`
@@ -48,6 +54,9 @@ const Formulario=styled.div`
     background:var(--search);
     a{
         text-decoration:none;
+    }
+    @media(max-width:630px){
+        width:100vw;
     }
    
 `
