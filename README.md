@@ -1,6 +1,6 @@
 # Login-e-Cadastro com Next.js e Node.js
 
-<p>Projeto que cadastra um usuário usando o formik para validação. Além disso, é realizado um login do usuário, que gera um token de autenticação com jwt caso o mesmo seja encontrado na base de dados salva.</p>
+<p>Projeto que cadastra um usuário usando o formik para validação. Além disso, é realizado um login de usuário, que gera um token de autenticação com jwt caso o mesmo seja encontrado na base de dados salva.</p>
 
 <hr>
 
